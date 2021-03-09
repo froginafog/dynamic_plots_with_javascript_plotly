@@ -62,7 +62,7 @@ function E(n,w)
 */
 
 //wavefunction
-function psi(x, n, m, w)   //n = quantum nymber, w = angular velocity
+function psi(x, n, m, w)   //n = quantum number, w = angular velocity
 {
 	var k = Math.pow((m * w)/(pi * h_bar), 1.0/4.0);
 	var A = 1.0/Math.sqrt(Math.pow(2, n) * factorial(n)); 
