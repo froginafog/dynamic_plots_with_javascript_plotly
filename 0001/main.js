@@ -85,7 +85,7 @@ function main()
                                         clearInterval(interval);
                                     }
                                 }, 
-                                1  //1 millisoconds pause time
+                                1  //1 millisocond pause time
                               );
 }
 
