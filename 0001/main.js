@@ -1,3 +1,4 @@
+//author: froginafog
 function main()
 {
 	const pi = Math.PI;
