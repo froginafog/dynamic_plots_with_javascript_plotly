@@ -34,7 +34,7 @@ function main()
         }
         else
         {
-			x_data_1.push(r * Math.cos(theta));  
+		x_data_1.push(r * Math.cos(theta));  
         	y_data_1.push(r * Math.sin(theta));
         	x_data_2.push(-r * Math.cos(theta));  
         	y_data_2.push(-r * Math.sin(theta)); 
