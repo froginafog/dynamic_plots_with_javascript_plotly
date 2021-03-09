@@ -1,7 +1,7 @@
 //author: froginafog
 function main()
 {
-	const pi = Math.PI;
+    const pi = Math.PI;
     var x_data_1 = [];
     var y_data_1 = [];
     var x_data_2 = [];
