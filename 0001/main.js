@@ -1,4 +1,4 @@
-//author: froginafog
+//author: froginafog (Liang D.S.)
 function main()
 {
     const pi = Math.PI;
