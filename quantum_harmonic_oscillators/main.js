@@ -1,5 +1,5 @@
 //harmonic oscillator
-//author: froginafog 
+//author: froginafog (Liang D.S.)
 const h_bar = 1.05457 * Math.pow(10, -34); //J s
 const m_e = 9.10938 * Math.pow(10, -31);   //kg
 const m_p = 1.67262 * Math.pow(10, -27);   //kg
