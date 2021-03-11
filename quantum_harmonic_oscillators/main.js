@@ -145,7 +145,7 @@ function main()
     
     var point = 0;
     
-    fig = Plotly.plot("plotly1", [{
+    Plotly.plot("plotly1", [{
                                 x: [x_data_1[point]],
                                 y: [y_data_1[point]],
                                 type: "line",
