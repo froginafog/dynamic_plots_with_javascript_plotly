@@ -56,12 +56,12 @@ function H(n, y)
 //energy of harmonic oscillator
 function E(n,w) 
 {
-	return (n + 1.0/2.0)*h_bar*w;  //n = quantum number, w = angular velocity
+	return (n + 1.0/2.0)*h_bar*w;  //n = quantum number, w = angular frequency
 }
 */
 
 //wavefunction
-function psi(x, n, m, w)   //n = quantum nymber, w = angular velocity
+function psi(x, n, m, w)   //n = quantum nymber, w = angular frequency
 {
 	var k = Math.pow((m * w)/(pi * h_bar), 1.0/4.0);
 	var A = 1.0/Math.sqrt(Math.pow(2, n) * factorial(n)); 
@@ -84,14 +84,14 @@ function main()
     var y_data_4 = [];
     var x_data_5 = [];
     var y_data_5 = [];
-	var x_min = -2.0;
-	var x_max = 2.0;
-	var dx = 0.01;
+    var x_min = -2.0;
+    var x_max = 2.0;
+    var dx = 0.01;
     var num_points = Math.floor((x_max - x_min)/dx);
     num_points++;
     var x;
-    var w_e = Math.pow(10, -3);  //angular velocity of electron
-    var w_p = Math.pow(10, -10);  //angular velocity of proton
+    var w_e = Math.pow(10, -3);  //angular frequency of electron
+    //var w_p = Math.pow(10, -10);  //angular frequency of proton
 
     for(x = x_min; x < x_max; x = x + dx)
     {
