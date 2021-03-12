@@ -85,9 +85,9 @@ function main()
     var y_data_4 = [];
     var x_data_5 = [];
     var y_data_5 = [];
-	var x_min = -3.0;
-	var x_max = 3.0;
-	var dx = 0.01;
+    var x_min = -3.0;
+    var x_max = 3.0;
+    var dx = 0.01;
     var num_points = Math.floor((x_max - x_min)/dx);
     var x;
     var w_e = Math.pow(10, -3);  //angular velocity of electron
