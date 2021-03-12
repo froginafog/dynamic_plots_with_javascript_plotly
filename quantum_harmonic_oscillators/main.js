@@ -92,7 +92,7 @@ function main()
     num_points++;
     var x;
     var w_e = Math.pow(10, -3);  //angular frequency of electron
-    var w_p = Math.pow(10, -10);  //angular frequency of proton
+    //var w_p = Math.pow(10, -10);  //angular frequency of proton
 
     for(x = x_min; x < x_max; x = x + dx)
     {
