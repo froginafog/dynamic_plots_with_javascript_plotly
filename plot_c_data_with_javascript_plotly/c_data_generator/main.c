@@ -1,5 +1,5 @@
 //Convert the generated data into .txt file.
-//gcc main.c -o linker -lm
+//author: froginafog (Liang D.S.)
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
