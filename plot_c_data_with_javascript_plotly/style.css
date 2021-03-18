@@ -1,0 +1,145 @@
+body
+{
+    background: bisque;
+}
+
+#input_x_data_1
+{
+    width: 65.6%;
+    background: honeydew;
+    border-radius: 8px;
+}
+
+#input_y_data_1
+{
+    width: 65.6%;
+    background: honeydew;
+    border-radius: 8px;
+}
+
+#input_x_data_2
+{
+    width: 65.6%;
+    background: honeydew;
+    border-radius: 8px;
+}
+
+#input_y_data_2
+{
+    width: 65.6%;
+    background: honeydew;
+    border-radius: 8px;
+}
+
+#input_delay
+{
+    width: 65.6%;
+    background: honeydew;
+    border-radius: 8px;
+}
+
+#change_body_background_color_button
+{
+	border-radius: 8px;
+    background: azure;
+    opacity: 1;
+    transition: 1s;
+    box-shadow: 0 2px gray;
+    position: absolute;
+    left: 1600px;
+    top: 10px;
+    width: 210px;
+    text-align: center;
+}
+
+#plotly1
+{   
+    width:1000px; 
+    height:500px;
+    border: 3px solid navy;
+    border-radius: 3px;
+    opacity: 1;
+    transition: 1s;
+}
+
+#plot_lines_button
+{
+    border-radius: 8px;
+    background: azure;
+    opacity: 1;
+    transition: 1s;
+    box-shadow: 0 2px gray;
+    position: absolute;
+    left: 1040px;
+    top: 250px;
+    width: 240px;
+    text-align: center;
+}
+
+#plot_markers_button
+{
+    border-radius: 8px;
+    background: azure;
+    opacity: 1;
+    transition: 1s;
+    box-shadow: 0 2px gray;
+    position: absolute;
+    left: 1040px;
+    top: 280px;
+    width: 240px;
+    text-align: center;
+}
+
+#plot_lines_and_markers_button
+{
+    border-radius: 8px;
+    background: azure;
+    opacity: 1;
+    transition: 1s;
+    box-shadow: 0 2px gray;
+    position: absolute;
+    left: 1040px;
+    top: 310px;
+    width: 240px;
+    text-align: center;
+}
+
+#plot_lines_button:hover
+{
+    opacity: 0.2;
+}
+
+#plot_lines_button:active 
+{
+  transform: translateY(7px);
+}
+
+#plot_markers_button:hover
+{
+    opacity: 0.2;
+}
+
+#plot_markers_button:active 
+{
+  transform: translateY(7px);
+}
+
+#plot_lines_and_markers_button:hover
+{
+    opacity: 0.2;
+}
+
+#plot_lines_and_markers_button:active 
+{
+  transform: translateY(7px);
+}
+
+#change_body_background_color_button:hover
+{
+	opacity: 0.2;
+}
+
+#change_body_background_color_button:active 
+{
+  transform: translateY(7px);
+}
