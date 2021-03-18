@@ -1,3 +1,5 @@
+//plot data
+//author: froginafog (Liang D.S.)
 function get_input_x_data_1()
 {
     var x_data_1 = document.getElementById("input_x_data_1").value;  //x_data_1 is a string here
